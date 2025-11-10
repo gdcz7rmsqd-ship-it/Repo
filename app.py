@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html', message='Hello from cicdinclass')
+    return render_template('index.html', message='Hello is me')
 
 @app.route('/api')
 def api():
